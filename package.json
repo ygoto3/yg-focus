@@ -1,0 +1,36 @@
+{
+  "name": "yg-focus",
+  "version": "0.0.1",
+  "description": "A simple AngularJS directive to set focus to an element.",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ygoto3/yg-focus.git"
+  },
+  "keywords": [
+    "angular.js",
+    "ng",
+    "directive",
+    "focus",
+    "autofocus"
+  ],
+  "author": "Yusuke Goto",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ygoto3/yg-focus/issues"
+  },
+  "homepage": "https://github.com/ygoto3/yg-focus",
+  "devDependencies": {
+    "coffee-script": "^1.9.1",
+    "coffeeify": "^1.0.0",
+    "gulp": "^3.8.11",
+    "gulp-browserify": "^0.5.1",
+    "gulp-clean": "^0.3.1",
+    "gulp-jade": "^1.0.0",
+    "gulp-rename": "^1.2.0",
+    "gulp-stylus": "^2.0.1"
+  }
+}

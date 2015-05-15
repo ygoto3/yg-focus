@@ -1,0 +1,15 @@
+html(lang="en", ng-app="samples")
+  head
+    meta(charset="UTF-8")
+    title yg-events-on samples
+    link(rel="stylesheet", href="./css/style.css")
+  body
+    div(ng-controller="SampleCtrl")
+      button(ng-click="addInput()") Add input
+      ul
+        li(ng-repeat="item in items")
+          input(type="text", placeholder="{{item.placeholder}}", yg-focus)
+
+    script(type="text/javascript", src="../bower_components/angular/angular.min.js")
+    script(type="text/javascript", src="../dist/index.js")
+    script(type="text/javascript", src="./js/index.js")
